@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-29T23:38:33 IST" name="Suite" finished-at="2025-10-29T23:39:07 IST" duration-ms="34433">
+    <groups>
+    </groups>
+    <test started-at="2025-10-29T23:38:33 IST" name="Test" finished-at="2025-10-29T23:39:07 IST" duration-ms="34433">
+      <class name="tests.test002">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:38:52 IST" name="launchBrowser" finished-at="2025-10-29T23:39:06 IST" duration-ms="14708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Login()[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:06 IST" name="Login" finished-at="2025-10-29T23:39:07 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:06 IST" name="createTest" finished-at="2025-10-29T23:39:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test002.Login() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="testResult(org.testng.ITestResult)[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:07 IST" name="testResult" finished-at="2025-10-29T23:39:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=test002.Login()[pri:0, instance:tests.test002@3098cf3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:07 IST" name="createTest" finished-at="2025-10-29T23:39:07 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test002.allUrls()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="allUrls()[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:07 IST" name="allUrls" finished-at="2025-10-29T23:39:07 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allUrls -->
+        <test-method is-config="true" signature="testResult(org.testng.ITestResult)[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:07 IST" name="testResult" finished-at="2025-10-29T23:39:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allUrls status=SUCCESS method=test002.allUrls()[pri:0, instance:tests.test002@3098cf3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:tests.test002@3098cf3b]" started-at="2025-10-29T23:39:07 IST" name="exit" finished-at="2025-10-29T23:39:07 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- tests.test002 -->
+      <class name="tests.test001">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:33 IST" name="launchBrowser" finished-at="2025-10-29T23:38:49 IST" duration-ms="15498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="LoginTest()[pri:1, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:49 IST" name="LoginTest" finished-at="2025-10-29T23:38:50 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:49 IST" name="createTest" finished-at="2025-10-29T23:38:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test001.LoginTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="testResult(org.testng.ITestResult)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="testResult" finished-at="2025-10-29T23:38:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=test001.LoginTest()[pri:1, instance:tests.test001@313b2ea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method signature="ProductsTest()[pri:2, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="ProductsTest" finished-at="2025-10-29T23:38:50 IST" depends-on-methods="tests.test001.LoginTest" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductsTest -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="createTest" finished-at="2025-10-29T23:38:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test001.ProductsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="testResult(org.testng.ITestResult)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="testResult" finished-at="2025-10-29T23:38:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductsTest status=SUCCESS method=test001.ProductsTest()[pri:2, instance:tests.test001@313b2ea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="createTest" finished-at="2025-10-29T23:38:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test001.validProductTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="validProductTest()[pri:3, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="validProductTest" finished-at="2025-10-29T23:38:50 IST" depends-on-methods="tests.test001.ProductsTest" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validProductTest -->
+        <test-method signature="CheckOutTest()[pri:4, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="CheckOutTest" finished-at="2025-10-29T23:38:51 IST" depends-on-methods="tests.test001.validProductTest" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutTest -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="createTest" finished-at="2025-10-29T23:38:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test001.CheckOutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="testResult(org.testng.ITestResult)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:50 IST" name="testResult" finished-at="2025-10-29T23:38:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validProductTest status=SUCCESS method=test001.validProductTest()[pri:3, instance:tests.test001@313b2ea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:51 IST" name="exit" finished-at="2025-10-29T23:38:52 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="testResult(org.testng.ITestResult)[pri:0, instance:tests.test001@313b2ea6]" started-at="2025-10-29T23:38:51 IST" name="testResult" finished-at="2025-10-29T23:38:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckOutTest status=SUCCESS method=test001.CheckOutTest()[pri:4, instance:tests.test001@313b2ea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+      </class> <!-- tests.test001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
