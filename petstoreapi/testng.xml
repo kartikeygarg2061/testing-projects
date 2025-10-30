@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pet_store.add_a_new_pet"/>
+      <class name="pet_store.get_pet_by_id"/>
+      <class name="pet_store.update_pet_data"/>
+      <class name="pet_store.delete_existing_pet"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
